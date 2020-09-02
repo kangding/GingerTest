@@ -1,0 +1,35 @@
+2020-07-21 11:51:41,370 - root - INFO - 第1次查看a71f0fd1-144a-4585-a441-0f1d8c958388是否enabled
+2020-07-21 11:51:41,458 - root - INFO - 进入身份证打印界面
+2020-07-21 11:51:41,460 - root - INFO - 尝试第1次点击身份证打印 ,id：com.mi.print:id/id_card_print，如有Error请忽略
+2020-07-21 11:51:42,861 - root - INFO - 身份证打印界面的标题为：身份证打印
+2020-07-21 11:51:43,798 - root - INFO - 进入文档打印
+2020-07-21 11:51:43,801 - root - INFO - docPrint_id = com.mi.print:id/printer_print_document, docPrint_page_title = 文档打印, docPrint_page_title_id = com.mi.print:id/title_bar_title
+2020-07-21 11:51:45,585 - root - INFO - docPrint_page_title_text = 文档打印
+2020-07-21 11:51:46,465 - root - INFO - 进入FAQ界面
+2020-07-21 11:51:46,468 - root - INFO - 尝试第1次点击帮助中心,id：com.mi.print:id/printer_faq，如有Error请忽略
+2020-07-21 11:51:58,123 - root - ERROR - 查找元素失败，元素类型：id，元素属性:com.mi.print:id/printer_faq，失败原因：Message: 
+
+2020-07-21 11:51:59,280 - root - INFO - 尝试第2次点击帮助中心,id：com.mi.print:id/printer_faq，如有Error请忽略
+2020-07-21 11:52:11,034 - root - ERROR - 查找元素失败，元素类型：id，元素属性:com.mi.print:id/title_bar_title，失败原因：Message: 
+
+2020-07-21 11:52:11,037 - root - INFO - 进入墨水购买界面
+2020-07-21 11:52:11,039 - root - INFO - 尝试第1次点击帮助中心,id：com.mi.print:id/printer_cartridge，如有Error请忽略
+2020-07-21 11:52:22,615 - root - ERROR - 查找元素失败，元素类型：id，元素属性:com.mi.print:id/printer_cartridge，失败原因：Message: 
+
+2020-07-21 11:52:23,818 - root - INFO - 尝试第2次点击帮助中心,id：com.mi.print:id/printer_cartridge，如有Error请忽略
+2020-07-21 11:52:49,132 - root - INFO - 身份证打印界面的标题为：小米米家喷墨打印一体机墨盒
+2020-07-21 11:52:49,995 - root - INFO - 进入我的打印机界面
+2020-07-21 11:52:49,998 - root - INFO - myPrinter_id = com.mi.print:id/title_bar_return, myPrinter_title = 我的打印机, myPrinter_title_id = com.mi.print:id/title_bar_title
+2020-07-21 11:52:52,582 - root - INFO - myPrinter_title_text = 我的打印机
+2020-07-21 11:52:53,641 - root - INFO - 点击购买纸张
+2020-07-21 11:52:53,644 - root - INFO - 尝试第1次点击身份证打印 ,id：com.mi.print:id/printer_paper，如有Error请忽略
+2020-07-21 11:52:56,015 - root - INFO - 进入照片打印界面
+2020-07-21 11:53:08,042 - root - ERROR - 查找元素失败，元素类型：id，元素属性:com.mi.print:id/photo_print，失败原因：Message: 
+
+2020-07-21 11:53:08,049 - root - INFO - 进入扫描界面
+2020-07-21 11:53:20,007 - root - ERROR - 查找元素失败，元素类型：id，元素属性:com.mi.print:id/printer_make_photo_save，失败原因：Message: 
+
+2020-07-21 11:53:20,014 - root - INFO - 进入设置界面
+2020-07-21 11:53:22,130 - root - INFO - 进入证件照打印界面
+2020-07-21 11:53:22,132 - root - INFO - 尝试第1次点击证件照打印 ,id：com.mi.print:id/cretential_photo_print，如有Error请忽略
+2020-07-21 11:53:24,706 - root - INFO - 身份证打印界面的标题为：证件照打印

@@ -1,0 +1,6 @@
+2020-08-19 10:22:39,557 - root - INFO - 点击购买纸张
+2020-08-19 10:22:39,560 - root - INFO - 尝试第1次点击身份证打印 ,id：com.mi.print:id/printer_paper，如有Error请忽略
+2020-08-19 10:22:51,277 - root - ERROR - 查找元素失败，元素类型：id，元素属性:com.mi.print:id/printer_paper，失败原因：Message: 
+
+2020-08-19 10:22:52,413 - root - INFO - 尝试第2次点击身份证打印 ,id：com.mi.print:id/printer_paper，如有Error请忽略
+2020-08-19 10:22:54,836 - root - ERROR - Toast标题错误：敬请期待
