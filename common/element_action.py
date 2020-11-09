@@ -122,3 +122,19 @@ class ElementAction(object):
         b = (float(y) / height) * height
         y1 = int(b)
         self.driver.tap([(x1, y1), (x1, y1)], duration)
+
+    def take_ss(self, name="screenshot"):
+        """
+        获取手机当前截图，并保存至电脑目录中
+        :param name: 带入中文名称时需加u，例如 takse_ss(name=u"中文")
+        :return:
+        """
+
+        project_path = os.path.dirname(os.path.dirname(__file__))
+        day = time.strftime("%Y-%m-%d", time.localtime(time.time()))
+        ss_path = project_path.split('common')[0] + '\\screenshot\\' + day
+        ss_name = os.path.join(ss_path, '{0}.png'.format(name + time.strftime('%Y%m%d-%H%M%S')))
+        print(ss_path, ss_name)
+        if not os.path.exists(ss_path):
+            os.makedirs(ss_path)
+        self.driver.get_screenshot_as_file(ss_name)
