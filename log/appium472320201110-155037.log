@@ -1,0 +1,11 @@
+[35m[Appium][39m Welcome to Appium v1.15.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE: address already in use 127.0.0.1:4723
+    at Server.setupListenHandle [as _listen2] (net.js:1228:14)
+    at listenInCluster (net.js:1276:12)
+    at doListen (net.js:1415:7)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+(venv) D:\work\testginger\GingerTest\common>
