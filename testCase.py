@@ -10,6 +10,7 @@ from common.element_action import ElementAction
 from config.config_reader import configReader
 
 
+
 class MiPrint(unittest.TestCase):
 
     @classmethod
