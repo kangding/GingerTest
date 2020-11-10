@@ -1,6 +1,7 @@
 """
 element操作方法进行封装
 """
+import os
 
 from appium import webdriver
 from appium.webdriver.common.touch_action import TouchAction
