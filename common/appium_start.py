@@ -81,3 +81,4 @@ if __name__ == '__main__':
     port = 4723
     start_appium('127.0.0.1', 4723)
     time.sleep(3)
+    print("branch test")
