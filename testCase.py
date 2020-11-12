@@ -215,8 +215,14 @@ class MiPrint(unittest.TestCase):
         ElementAction(self.driver).back()
         self.assertEqual(ink_page_title, ink_page_title_text)
         """
+
+    def test_Func8(self):
+        ElementAction(self.driver).take_ss("test")
+
+
 from HTMLTestRunner import  HTMLTestRunner
 import os
+
 if __name__ == '__main__':
 
     suit = unittest.TestSuite()
