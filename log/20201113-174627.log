@@ -1,0 +1,7 @@
+2020-11-13 17:47:05,830 - root - INFO - 第1次查看f2ca7f09-dc66-45f1-a670-7f6a527ca193是否enabled
+2020-11-13 17:47:05,897 - root - INFO - 进入文档打印
+2020-11-13 17:47:05,898 - root - INFO - docPrint_id = com.mi.print:id/printer_print_document, docPrint_page_title = 文档打印, docPrint_page_title_id = com.mi.print:id/title_bar_title
+2020-11-13 17:47:08,324 - root - INFO - docPrint_page_title_text = 文档打印
+2020-11-13 17:47:09,262 - root - INFO - 选择一个文档
+2020-11-13 17:47:21,069 - root - ERROR - 查找元素失败，元素类型：ids，元素属性:com.mi.print:id/browser_item_name，失败原因：Message: 
+

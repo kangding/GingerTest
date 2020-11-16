@@ -6,7 +6,7 @@ import time
 
 def all_case():
     case_dir = os.path.join(os.getcwd(), "testcase")
-    discover = unittest.defaultTestLoader.discover(case_dir, pattern="test*.py", top_level_dir=None)
+    discover = unittest.defaultTestLoader.discover(case_dir, pattern="testPrint*.py", top_level_dir=None)
     print(case_dir)
     print(discover)
     return discover

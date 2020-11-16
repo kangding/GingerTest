@@ -9,7 +9,16 @@ from common.log import logger
 from common.element_action import ElementAction
 from config.config_reader import configReader
 
-
+""" appium setting
+{
+  "platformName": "Android",
+  "platformVersion": "9",
+  "appPackage": "com.mi.print",
+  "appActivity": ".SplashActivity",
+  "deviceName": "37955909",
+  "noReset": true
+}
+"""
 
 class MiPrint(unittest.TestCase):
 
@@ -217,7 +226,36 @@ class MiPrint(unittest.TestCase):
         """
 
     def test_Func8(self):
-        ElementAction(self.driver).take_ss("test")
+        """"""
+        logger.info("选择一个文档")
+        """
+            读取element_config.ini中home_page一项，获取docPrint_id，docPrint_page，docPrint_page_title_id的值
+        """
+        docPrint_id = self.data.getValue('home_page', 'docPrint_id')
+        docPrint_page_title = self.data.getValue('docPrint_page', 'docPrint_page_title')
+        docPrint_page_title_id = self.data.getValue('docPrint_page', 'docPrint_page_title_id')
+        logger.info(
+            'docPrint_id = %s, docPrint_page_title = %s, docPrint_page_title_id = %s' % (
+                docPrint_id, docPrint_page_title,
+                docPrint_page_title_id))
+        ElementAction(self.driver).find_element("id", docPrint_id).click()
+
+        # resource id
+        otherDoc_id = self.data.getValue('docPrint_page', 'otherDoc_id')
+        otherDoc_text = self.data.getValue('docPrint_page', 'otherDoc_text')
+
+        i = 0
+        print(ElementAction(self.driver).find_element("ids", otherDoc_id))
+
+        for ele in ElementAction(self.driver).find_element("ids", otherDoc_id):
+            if ElementAction(self.driver).find_element("ids", otherDoc_id)[i].text == otherDoc_text:
+                ElementAction(self.driver).find_element("ids", otherDoc_id)[i].click()
+
+                break
+            else:
+                i += 1
+
+        logger.info('enter into 其他文档')
 
 
 from HTMLTestRunner import  HTMLTestRunner

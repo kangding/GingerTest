@@ -1,0 +1,4 @@
+2020-11-13 17:52:54,486 - root - INFO - 选择一个文档
+2020-11-13 17:53:06,180 - root - ERROR - 查找元素失败，元素类型：ids，元素属性:com.mi.print:id/browser_item_name，失败原因：Message: 
+
+2020-11-13 17:53:06,183 - root - INFO - enter into 其他文档

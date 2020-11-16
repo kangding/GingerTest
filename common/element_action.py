@@ -23,6 +23,9 @@ class ElementAction(object):
             if element_type == "id":
                 WebDriverWait(self.driver, 10).until(lambda driver: driver.find_element_by_id(element_value))
                 ele = self.driver.find_element_by_id(element_value)
+            elif element_type == "ids":
+                WebDriverWait(self.driver, 10).until(lambda driver: driver.find_elements_by_id(element_value))
+                ele = self.driver.find_elements_by_id(element_value)
             elif element_type == "xpath":
                 WebDriverWait(self.driver, 10).until(lambda driver: driver.find_element_by_xpath(element_value))
                 ele = self.driver.find_element_by_xpath(element_value)

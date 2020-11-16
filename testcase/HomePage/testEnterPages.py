@@ -4,7 +4,7 @@ from common.log import logger
 import time
 import unittest
 
-from common.appium_start import appium_start
+from common.appium_start import connect_mobile
 from common.element_action import ElementAction
 from config.config_reader import configReader
 
@@ -17,7 +17,7 @@ class EnterPages(unittest.TestCase):
 
     @classmethod
     def setUpClass(self):
-        self.driver = appium_start()
+        self.driver = connect_mobile()
         self.data = configReader('element_config.ini')
 
         docPrint_id = self.data.getValue('home_page', 'docPrint_id')
