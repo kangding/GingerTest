@@ -29,4 +29,4 @@ if __name__ == "__main__":
 
     runner.run(all_case())
     fp.close()
-    runner.run(all_case())
+    # runner.run(all_case())
