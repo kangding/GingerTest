@@ -218,6 +218,7 @@ class MiPrint(unittest.TestCase):
 
     def test_Func8(self):
         ElementAction(self.driver).take_ss("test")
+        pass
 
 
 from HTMLTestRunner import  HTMLTestRunner
